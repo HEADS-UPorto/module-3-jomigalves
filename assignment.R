@@ -17,5 +17,5 @@ data_frame <- as.data.frame(data_list)
 data_list$obs = NULL
 new_data <- as.data.frame(data_list)
 
-save(data_frame, new_data, file = "output.rda")
+save(data_frame, new_data, file = "output.rda", version = 2)
 
